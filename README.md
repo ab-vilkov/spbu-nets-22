@@ -6,7 +6,7 @@
 Инструкцию по установке можно найти [на официальном сайте](https://go.dev/doc/install).
 
 ##### Как собрать приложение?
-```bash
+```console
 $ (cd cmd/proxyvilkov && go build .)
 ```
 В `cmd/proxyvilkov` появится исполняемый файл с именем `proxyvilkov`.
@@ -17,7 +17,7 @@ $ (cd cmd/proxyvilkov && go build .)
 
 Сервер слушает порт, переданный через аргумент `-port`, по умолчанию `6029`.
 
-```bash
+```console
 $ proxyvilkov -port=6029
 ```
 
